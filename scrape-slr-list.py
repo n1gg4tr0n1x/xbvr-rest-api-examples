@@ -5,7 +5,7 @@ Given a text file with one SLR ID per line, scrape SLR for those IDs
 import sys
 import requests
 
-SCRAPER_API_URL = "http://localhost:9999//api/task/singlescrape"
+SCRAPER_API_URL = "http://localhost:9999/api/task/singlescrape"
 
 def get_slr_post_data(scene_id:int) -> dict:
 	return {
