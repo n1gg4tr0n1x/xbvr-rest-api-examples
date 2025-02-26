@@ -135,8 +135,6 @@ class JavId:
 		return hash(str(self))
 
 
-requests_session = requests.Session()
-
 def get_unmatched_files_list() -> list[dict]:
 	"""
 	Request a list of unmatched files from the XBVR API
@@ -265,7 +263,10 @@ def get_scene_for_jav_id(jav_id:JavId, potential_scenes:list[dict]) -> dict|None
 	return None
 
 
+
 if __name__ == "__main__":
+
+	requests_session = requests.Session()
 
 	count_good = 0
 	count_bad  = 0
