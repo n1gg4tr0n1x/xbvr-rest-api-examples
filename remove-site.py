@@ -6,7 +6,7 @@ This removes any scenes scraped from the site, and unmatches any files.
 # EDIT BELOW, IF NEEDED.  Do not include a trailing slash.
 # -------
 
-XBVR_SERVER_ADDRESS = "http://192.168.1.4:9999"
+XBVR_SERVER_ADDRESS = "http://localhost:9999"
 
 # -------
 # That's all you'll really need to edit
